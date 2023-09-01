@@ -1,0 +1,838 @@
+﻿@using Monitor4WebServer.Model
+@using Newtonsoft.Json.Linq;
+@using Monitor4WebServer.Services
+@using Monitor4WebServer.Data
+@using System.Diagnostics;
+@using System.Globalization
+@using System.Timers
+@using LiteDB;
+@using Microsoft.AspNetCore.Hosting;
+@using System.Speech.Synthesis
+@using System.IO;
+@using JsonSerializer = System.Text.Json.JsonSerializer
+@using Toolbelt.Blazor.SpeechSynthesis
+@inject IWebHostEnvironment WebHostEnvironment
+@inject MQTTService MqttCloud
+@inject MQTTService MqttLocal
+@inject IJSRuntime JSRuntime
+@inject SpeechSynthesis SpeechSynthesis
+@page "/"
+
+
+
+<div class="h-100">
+
+    <RadzenLayout style="h-100;" class="rz-color-on-info-lighter rz-border-black rz-background-color-black">
+
+        <HeaderLayout MainText="@HotelName"></HeaderLayout>
+
+
+
+
+        <RadzenRow Gap="0rem" Style="height: 100%">
+            <RadzenColumn Size="2" class="rz-background-color-info rz-color-on-info-lighter" Style="height: 100%">
+
+                <RadzenColumn Size="12" class="d-flex justify-content-center align-items-center align-content-center" Style="vertical-align: middle; background-color: #000000; border: 2px solid #084B8A;">
+                    <span class="my-4;" style="font-size: 1.5em; font-weight:bold">INFORMES</span>
+                </RadzenColumn>
+
+                <RadzenColumn Size="12">
+                    <RadzenRow Style="height: auto;" class="my-4">
+                        <RadzenColumn Size="6" class="d-flex flex-column justify-content-center align-items-center">
+                            <RadzenColumn Style="height: 50%; color: #ffffff; background-color:">
+                                <RadzenText Text="OCUPADAS" TextAlign="TextAlign.Center" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" Style="color: #ffffff" />
+                            </RadzenColumn>
+                            <RadzenColumn Style="height: 50%; color: #ffffff; width:100%">
+                                <RadzenText Text="@Room.busyRooms.ToString()" TextAlign="TextAlign.Center" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" Style="color: #ffffff; background-color: transparent" />
+                            </RadzenColumn>
+                        </RadzenColumn>
+                        <RadzenColumn Size="6" class="d-flex flex-column justify-content-center align-items-center">
+                            <RadzenColumn Style="height: 50%; color: #ffffff; background-color:width:100%">
+                                <RadzenText Text="LIBRES" TextAlign="TextAlign.Center" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" Style="color: #ffffff; " />
+                            </RadzenColumn>
+                            <RadzenColumn Style="height: 50%; color: #ffffff; width:100%">
+                                <RadzenText Text="@Room.freeRooms.ToString()" TextAlign="TextAlign.Center" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" Style="color: #ffffff; background-color: rgba(0, 0, 0, 0)" />
+                            </RadzenColumn>
+                        </RadzenColumn>
+                    </RadzenRow>
+
+                </RadzenColumn>
+
+                <RadzenColumn Size="12">
+                    <RadzenRow Style="height: 100px; border: 2px solid #084B8A; width: 100%" Gap="0" class="d-flex justify-content-center align-items-center">
+                        <RadzenColumn Size="12" Style="vertical-align: middle;" class="d-flex justify-content-center align-items-center">
+                            <RadzenText Text="TOTAL TURNO DIA" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" Style="color: #ffffff" />
+                        </RadzenColumn>
+                        <RadzenColumn Size="12" class="d-flex justify-content-center align-items-center">
+                            <RadzenText Text="@totalDay.ToString()" Style="color: #ffffff" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" />
+                        </RadzenColumn>
+                    </RadzenRow>
+                    <RadzenRow Style="height: 100px; border: 2px solid #084B8A; width: 100%" Gap="0" class="d-flex justify-content-center align-items-center">
+                        <RadzenColumn Size="12" Style="vertical-align: middle;" class="d-flex justify-content-center align-items-center">
+                            <RadzenText Text="TOTAL TURNO TARDE" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" Style="color: #ffffff" />
+                        </RadzenColumn>
+                        <RadzenColumn Size="12" class="d-flex justify-content-center align-items-center">
+                            <RadzenText Text="@totalAfternoon.ToString()" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TextAlign="Radzen.TextAlign.Center" Style="color: #ffffff" />
+                        </RadzenColumn>
+                    </RadzenRow>
+                    <RadzenRow Style="height: 100x; border: 2px solid #084B8A; width: 100%" Gap="0" class="d-flex justify-content-center align-items-center">
+                        <RadzenColumn Size="12" Style="vertical-align: middle;" class="d-flex justify-content-center align-items-center">
+                            <RadzenText Text="TOTAL TURNO NOCHE" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" Style="color: #ffffff" />
+                        </RadzenColumn>
+                        <RadzenColumn Size="12" class="d-flex justify-content-center align-items-center">
+                            <RadzenText Text="@totalNight.ToString()" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" Style="color: #ffffff" />
+                        </RadzenColumn>
+                    </RadzenRow>
+                    <RadzenRow Style="height: 100px; border: 2px solid #084B8A; width: 100%" Gap="0" class="d-flex justify-content-center align-items-center">
+                        <RadzenColumn Size="12" Style="vertical-align: middle;" class="d-flex justify-content-center align-items-center">
+                            <RadzenText TextStyle="Radzen.Blazor.TextStyle.Subtitle1" Style="color: #ffffff">TOTAL TURNO ACTUAL</RadzenText>
+                        </RadzenColumn>
+                        <RadzenColumn Size="12" class="d-flex justify-content-center align-items-center">
+                            <RadzenText Text="@turnNow" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" Style="color: #ffffff" />
+                        </RadzenColumn>
+                    </RadzenRow>
+                </RadzenColumn>
+
+                <RadzenStack Orientation="Radzen.Orientation.Horizontal" JustifyContent="JustifyContent.End" AlignItems="Radzen.AlignItems.End">
+                    <RadzenColumn>
+                        <RadzenRow class="rz-text-align-center" Gap="0" RowGap="0" Style=" border: 2px solid #084B8A;height: 100%;">
+
+                            <RadzenColumn Size="12" class="rz-background-color-info-lighter  rz-p-5" Style=" height:50px;  color: #ffffff">
+                                MANICATO GROUP
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" class="rz-background-color-info-lighter rz-p-5" Style="height:50px;  color: #ffffff">
+                                www.manicatogroup.com
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" class="rz-background-color-info-lighter  rz-p-5" Style="height:50px; color: #ffffff">
+                                info@manicatogroup.com
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" class="rz-background-color-info-lighter  rz-p-5" Style="height:50px;  color: #ffffff">
+                                +1-849-450-0454
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" class="rz-background-color-info-lighter rz-p-5" Style="height:50px; color: #ffffff">
+                                MONITOR4 V2.0 PLUS
+                            </RadzenColumn>
+
+                        </RadzenRow>
+                    </RadzenColumn>
+                </RadzenStack>
+
+            </RadzenColumn>
+
+            <RadzenColumn class="rz-color-on-info-lighter rz-border-black">
+                <RadzenRow class="rz-color-on-info-lighter rz-border-black" Gap="0.5rem">
+
+                    @foreach (var r in ListRooms)
+                    {
+
+                        <RadzenColumn class="rz-color-on-info-lighter rz-border-black" Style="height:60px;" Size="2">
+                            <RadzenRow class="rz-text-align-center rz-border-white" Style="height:100%;" Gap="0rem">
+                                <RadzenColumn Size="4" class="rz-color-white d-flex justify-content-center align-items-center" Style=@GetStyleRoom(r.CurrentState)>
+                                    <span>@r.Id</span>
+                                </RadzenColumn>
+                                <RadzenColumn Size="8" class="d-flex flex-column justify-content-center align-items-center  rz-color-white" Style="height:100%; font-weight: bold;" @ref="columnRef">
+
+                                    <span style="font-size: 1.2em">@r.CurrentState.ToString()</span>
+                                    <span style="color:cyan; font-weight:bold; font-size:larger">@r.Time</span>
+
+                                </RadzenColumn>
+
+                            </RadzenRow>
+                        </RadzenColumn>
+                    }
+                </RadzenRow>
+            </RadzenColumn>
+
+
+        </RadzenRow>
+    </RadzenLayout>
+
+</div>
+
+
+
+<!--
+<h3>My Component</h3>
+
+<ul>
+@foreach (var data in listareportesIterartor)
+{
+        <li>@data.ID_HABITACION</li>
+}
+</ul>
+-->
+
+<style>
+
+    .sf-dashboard-wrapper {
+        width: 100%;
+        background-color: #000000;
+    }
+
+    .e-dashboardlayout.e-control.e-responsive {
+        background: #000000;
+        width: 80% !important;
+    }
+
+    .e-dashboardlayout.e-control .e-panel .e-panel-container .e-panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        font-size: 2em;
+        background-color: rgba(255, 128, 0);
+    }
+
+    .e-panel-content {
+        text-align: center;
+    }
+
+    .e-card.e-card-horizontal.e-card-stacked {
+        justify-content: center;
+        margin: initial;
+    }
+
+
+    .e-card.e-card-horizontal div.card_number {
+        flex: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 128, 0);
+    }
+
+</style>
+
+
+
+
+
+
+@code
+{
+    private string HotelName = null!;
+    public int column = 0;
+    public int row = 0;
+    public int nums = 0;
+    public int roomsQuantity = 0;
+    public int counter = 0;
+
+
+    private static TimeSpan? turnDayTime = null;
+    private static TimeSpan? turnAfternoonTime = null;
+    private static TimeSpan? turnNightTime = null;
+    private static string turnNow = null!;
+
+    private TimeSpan[] turns = new TimeSpan[3];
+
+    private static int totalDay = 0;
+    private static int totalAfternoon = 0;
+    private static int totalNight = 0;
+    public static int totalSoldNow = 0;
+
+    public delegate void MQTTMessageReceivedHandler(string message);
+    public event MQTTMessageReceivedHandler OnMQTTMessageReceived;
+    public static List<Room> ListRooms = new List<Room>();
+
+
+    private int listRoomsVersion = 0;
+    private System.Threading.Timer? timer;
+    private RadzenColumn columnRef;
+
+    private List<LineReport> listareportes = new List<LineReport>();
+    private List<LineReport> listareportesIterartor = new List<LineReport>();
+    private static ServerConfiguration? confg;
+    public Timer timerUpdate = new(1000);
+    IEnumerable<SpeechSynthesisVoice> Voices;
+
+
+
+    SpeechSynthesisUtterance utterancet = new SpeechSynthesisUtterance();
+    // Initialize a new instance of the SpeechSynthesizer.
+    SpeechSynthesizer synth = new SpeechSynthesizer(); //window only
+
+    static List<LineReport> ListLineReports = new List<LineReport>();
+    static ILiteCollection<LineReport> col;
+
+
+    public enum TURNO
+    {
+        DIA = 1,
+        TARDE = 2,
+        NOCHE = 3,
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+
+
+        if (confg == null) //chequea si ya los datos han sido cargados anteriormente
+        {
+            Console.WriteLine("Incializacion...");
+            confg = await GetConfigurationFile(WebHostEnvironment); //get data configuration
+            assingTurns(confg); //asignacion de turnos
+
+
+            if (ListRooms.Count() < confg.RoomsQuantity)
+            {
+                for (int i = 1; i <= confg.RoomsQuantity; i++)
+                {
+                    ListRooms.Add(new Room(i));
+                }
+
+            }
+
+
+
+            await MqttLocal.Connect_Client("broker.manicatogroup.com", int.Parse(confg.MqttPort), confg.MqttClientName); //cloud broker
+            await MqttLocal.sendMessage($"MQTT LOCAL CONNECTED", "Monitor4Test/Room");
+            await SubscribeToMqtt(confg.MqttTopic); //suscripcion al topico
+
+            //$"zemiMonitor/Room/#"
+            ReceiveMqttMsgAsync(confg.HotelName); // Espera hasta que la suscripción se establezca correctamente
+
+            utterancet.Lang = "es-DO"; // BCP 47 language tag
+            utterancet.Pitch = 1.0; // 0.0 ~ 2.0 (Default 1.0)
+            utterancet.Rate = 1.2; // 0.1 ~ 10.0 (Default 1.0)
+
+
+        }
+
+
+        utterancet.Lang = "es-DO"; // BCP 47 language tag
+        utterancet.Pitch = 1.0; // 0.0 ~ 2.0 (Default 1.0)
+        utterancet.Rate = 1.2; // 0.1 ~ 10.0 (Default 1.0)
+
+
+
+        /*
+        await MqttLocal.Connect_Client("192.168.10.141", "WebServerMonitor4Local"); //local broker
+        await MqttLocal.sendMessage($"TEST MQTT SERVER CLOUD", "zemiMonitorTest/Room");
+        await SubscribeToMqtt();
+        */
+
+        //await MqttLocal.Connect_Client("192.168.10.149", "WebServerMonitor4Cloud"); //local broker
+        //await MqttLocal.SubscribeAsync("zemiMonitor/Room", HandleMessage);
+        //await MqttLocal.sendMessage($"test mqtt c# of {client} to local", "zemiMonitor/Room")
+        //await Localdb.Dispose();
+
+        //listareportes = await lineReportDB.GetAllLineReports();
+
+
+    }
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+
+
+            timerUpdate.Elapsed += (sender, eventArgs) => OnTimerCallback();
+            timerUpdate.Start();
+
+            HotelName = confg.HotelName; //nombre del hotel/cliente
+            this.Voices = await this.SpeechSynthesis.GetVoicesAsync();
+        }
+
+    }
+
+
+
+
+
+
+
+    private void OnTimerCallback()
+    {
+        int free = 0;
+        int busy = 0;
+
+
+        using (var db = new LiteDatabase(@"C:\Users\Informatica\Desktop\MONITOR4LR\MONITOR4_LR.db"))
+        {
+            col = db.GetCollection<LineReport>("linereport");
+
+
+            foreach (var r in ListRooms)
+            {
+
+                r.UpdateTime();
+
+
+                if (r.CurrentState == Estado.Libre)
+                {
+
+                    free++;
+                }
+                else if (r.CurrentState == Estado.Ocupada)
+                {
+                    busy++;
+                }
+
+
+                if (r.CurrentState != r.NewState)
+                {
+
+
+
+
+
+
+                    r.oldState = r.CurrentState; //capture old state
+                    r.CurrentState = r.NewState; //change current state to new state
+                    r.ResetTimerError(); //reset error timer
+                    r.RestartAllTimers(); //reset timers
+                    r.StartTimer(r.CurrentState); //start new timer by current state
+
+                    //r.UpdateRoom(TURNO.TARDE, 0, db, col, ListLineReports[r.Id]);
+                    Console.WriteLine($"SINTESIS DE VOZ EJECUTADA {r.Id}");
+
+                    //MqttLocal.sendMessage($"Habitacion_{r.Id}_Libre", "MONITOR4/text_speech");
+                    //SpeechToText(synth, $"HABITACION {r.Id}: {r.CurrentState.ToString()}");
+
+
+                    //Console.WriteLine($"HUBO CAMBIO DE ESTADO EJECUTANDO... SISTESIS DE VOZ {r.Id}");
+                    /*
+                    Task.Run(async () =>
+                    {
+                       
+                        await r.PlaySpeechAsync(JSRuntime, $"HABITACION {r.Id}: {r.CurrentState.ToString()}");
+                       
+                        //r.TextToSpeechAsync(SpeechSynthesis, utterancet, $"HABITACION {r.Id}: {r.CurrentState.ToString()}");
+                    });                   
+                  
+                   
+
+
+                    */
+
+
+                    //check if change is busy
+                    if (r.CurrentState == Estado.Ocupada)
+                    {
+                        GetTotalSolds(); //add new sold room
+                    }
+
+                }
+
+            }
+
+        }
+        Room.freeRooms = free;
+        Room.busyRooms = busy;
+        GetTurnNow();
+        InvokeAsync(StateHasChanged);
+    }
+
+
+
+    //event to manage Mqtt Recived Messages
+    private async Task HandleMessage(string message)
+    {
+        JObject jsonObject = JObject.Parse(message);
+
+        bool checkMsg = CheckJson(jsonObject);
+
+
+        if (checkMsg)
+        {
+
+            int room = (int)jsonObject["NumHab"];
+            int data = (int)jsonObject["Trama_V"];
+
+            Estado newState = DecodeData(data, room);  //decodifier data
+
+            Room? findRoom = ListRooms.Find(r => r.Id == room); //found room
+
+            //LineReport? findReportLine = (await lineReportDB.GetAllLineReports()).LastOrDefault(x => x.ID_HABITACION == room);
+
+            //check if room exist
+            if (findRoom != null)
+            {
+                findRoom.NewState = newState; //assing new state;
+                findRoom.speechSynthesisRequested = true; //indicate speech change
+
+            }
+
+            // await InvokeAsync(StateHasChanged); //renderizar componente
+        }
+
+        else
+        {
+            return;
+        }
+
+    }
+
+    private async Task SubscribeToMqtt(string topic)
+    {
+        await MqttCloud.SubscribeAsync(topic);
+    }
+
+    private void ReceiveMqttMsgAsync(string hotelName)
+    {
+        MqttCloud.StartReceivingMessages(hotelName, async message =>
+         {
+             await HandleMessage(message);
+         });
+    }
+
+    //data MQTT decodefier
+    private Estado DecodeData(int DATA, int numberRoom)
+    {
+        Estado newState;
+        //Estado CardId;
+
+        //TODO: RETORNAR TIPO DE TARJETA Y EL CARD ID
+        //decodificacion trama version 2023
+        int ID_TARJETA = (DATA & 0xFF);//ID de la tarjeta
+        int TIPO_TARJETA = ((DATA >> 8) & 0x0F);//tipo de tarjeta
+        int ESTADO_HABITACION = ((DATA >> 12) & 0x0F);//estado de la habitacion
+        int OPC = ((DATA >> 16) & 0x0F);//verifica si la trama es de tipo OPC
+
+
+        //Console.WriteLine("DATA: " + DATA);
+        //Console.WriteLine("ID TARJETA: " + ID_TARJETA);
+        //Console.WriteLine("TIPO TARJETA: " + TIPO_TARJETA);
+        //Console.WriteLine("ESTADO HABITACION: " + ESTADO_HABITACION);
+        //Console.WriteLine("OPC: " + OPC);
+
+        switch (ESTADO_HABITACION) //change room state
+        {
+            case 0:
+
+                newState = Estado.Error;
+                break;
+            case 1:
+
+                newState = Estado.Init;
+                break;
+            case 2:
+
+                newState = Estado.Limpieza;
+                break;
+            case 3:
+
+                newState = Estado.Ocupada;
+                break;
+            case 4:
+
+                newState = Estado.Libre;
+                break;
+            case 5:
+
+                newState = Estado.Mantenimiento;
+                break;
+            case 6:
+
+                newState = Estado.Cerrada;
+                break;
+            case 7:
+
+                newState = Estado.Abierta;
+                break;
+
+            default:
+                //TODO: MANEJO DE EXCEPCION EN VEZ DE INIT
+                newState = Estado.Init;
+                break;
+
+        }
+
+
+
+        return newState;
+    }
+
+    private async ValueTask StartSpeechSynthesis(string text)
+    {
+        try
+        {
+            JSRuntime.InvokeVoidAsync("startSpeechSynthesis", text);
+
+        }
+
+        catch (JSDisconnectedException ex)
+        {
+            // Ignore
+        }
+
+        catch (Exception)
+        {
+
+        }
+    }
+
+    async Task onClickSpeak()
+    {
+        await this.SpeechSynthesis.SpeakAsync("INICIALIZANDO AUDIO"); // 👈 Speak!
+    }
+
+    async Task textSpeech(string text)
+    {
+        await this.SpeechSynthesis.SpeakAsync(text); // 👈 Speak!
+    }
+
+    private string GetColumnClass(string status)
+    {
+        string stateClass;
+        string columnClass;
+
+        // Lógica para asignar la clase según el estado
+        switch (status)
+        {
+            case "OCUPADA":
+                stateClass = "rz-background-color-danger";
+                break;
+            case "MANTENIMIENTO":
+                stateClass = "rz-background-color-warning";
+                break;
+            case "ABIERTA":
+                stateClass = "rz-background-color-secondary-dark";
+                break;
+            case "CERRADA":
+                stateClass = "rz-background-color-series-2";
+                break;
+            default:
+                stateClass = "rz-background-color-success-dark";
+                break;
+        }
+
+        columnClass = $"{stateClass} rz-color-white d-flex justify-content-center align-items-center";
+
+
+        return columnClass;
+    }
+
+    private string GetStyleRoom(Estado status)
+    {
+
+        string stateStyle = null!;
+        string columnStyle;
+
+        // Lógica para asignar la clase según el estado
+        switch (status)
+        {
+            case Estado.Init:
+                stateStyle = "background-color: ";
+                break;
+            case Estado.Error:
+                stateStyle = "background-color: #ff0000;";
+                break;
+            case Estado.Libre:
+                stateStyle = "background-color: #008000;";
+                break;
+            case Estado.Cerrada:
+                stateStyle = "background-color: #9370db;";
+                break;
+            case Estado.Ocupada:
+                stateStyle = "background-color: #ff4500;";
+                break;
+            case Estado.Abierta:
+                stateStyle = "background-color: #a9a9a9;";
+                break;
+            case Estado.Limpieza:
+                stateStyle = "background-color: #0000ff;";
+                break;
+            case Estado.Mantenimiento:
+                stateStyle = "background-color: #8b0000;";
+                break;
+            default:
+                stateStyle = "background-color: ";
+                break;
+        }
+
+
+        columnStyle = $"{stateStyle} height:100%; font-size: 2em; font-weight: bold;";
+
+
+        return columnStyle;
+
+    }
+
+    public static bool CheckJson(JObject jsonObject)
+    {
+        // Comprobar la presencia de propiedades requeridas
+        if (jsonObject.ContainsKey("Cont_data") && jsonObject.ContainsKey("Trama_V") && jsonObject.ContainsKey("NumHab"))
+        {
+            // Comprobar los tipos de las propiedades
+            if (jsonObject["Cont_data"].Type == JTokenType.Integer &&
+                jsonObject["Trama_V"].Type == JTokenType.Integer &&
+                jsonObject["NumHab"].Type == JTokenType.Integer)
+            {
+                //Console.WriteLine("El JSON tiene las propiedades y el formato correcto.");
+                return true;
+            }
+            else
+            {
+                //Console.WriteLine("El JSON tiene el formato incorrecto.");
+                return false;
+            }
+        }
+        else
+        {
+            //Console.WriteLine("El JSON no contiene todas las propiedades requeridas.");
+            return false;
+        }
+    }
+
+    //get formated date time
+    public static string[] GetDateTimeNow()
+    {
+        // Obtener la fecha y hora actual
+        DateTime dateTimeNow = DateTime.Now;
+
+        // Formato personalizado para la fecha
+        string formatDate = "ddd. dd MMM yyyy";
+
+        // Obtener la fecha actual en el formato deseado
+        string dateNow = dateTimeNow.ToString(formatDate);
+
+
+        // Formato personalizado para la hora en formato de 12 horas
+        string formatHour12 = "hh:mm:ss tt";
+
+        // Obtener la hora actual en formato de 12 horas
+        string timeNow = dateTimeNow.ToString(formatHour12);
+
+
+
+        return new string[] { dateNow, timeNow };
+    }
+
+    //get actual turn
+    private static void GetTurnNow()
+    {
+
+        TimeSpan DateTimeNow = DateTime.Now.TimeOfDay;
+
+
+
+        if (DateTimeNow >= turnDayTime && DateTimeNow < turnAfternoonTime)
+        {
+            turnNow = "DIA";
+        }
+
+        else if (DateTimeNow >= turnAfternoonTime && DateTimeNow < turnNightTime)
+        {
+            turnNow = "TARDE";
+        }
+        else
+        {
+            turnNow = "NOCHE";
+        }
+
+    }
+
+    private static void assingTurns(ServerConfiguration confg)
+    {
+
+        //Assing Turns
+        for (int i = 1; i <= confg.TimeTurnos.Count(); i++)
+        {
+            if (i == 1)
+            {
+                turnDayTime = confg.TimeTurnos[1];
+            }
+
+            else if (i == 2)
+            {
+                turnAfternoonTime = confg.TimeTurnos[2];
+            }
+
+            else
+            {
+                turnNightTime = confg.TimeTurnos[3];
+            }
+        }
+
+        Console.WriteLine(turnDayTime);
+
+        Console.WriteLine(turnAfternoonTime);
+
+        Console.WriteLine(turnNightTime);
+    }
+
+    //get total solds by turn
+    private static void GetTotalSolds()
+    {
+        TimeSpan DateTimeNow = DateTime.Now.TimeOfDay;
+
+
+        if (turnNow == "DIA")
+        {
+            totalDay++;
+        }
+
+        else if (turnNow == "TARDE")
+        {
+            totalAfternoon++;
+        }
+
+        else if (turnNow == "NOCHE")
+        {
+            totalNight++;
+        }
+
+    }
+
+    private static async Task<ServerConfiguration?> GetConfigurationFile(IWebHostEnvironment WebHostEnvironment)
+    {
+        Console.WriteLine("Getting file configuration...");
+
+        string pathFile = Path.Combine(WebHostEnvironment.WebRootPath, "ServerConfiguration.json");
+
+        string jsonData = await File.ReadAllTextAsync(pathFile);
+
+        ServerConfiguration? confg = JsonSerializer.Deserialize<ServerConfiguration>(jsonData);
+
+        Console.WriteLine("Configuration file obtained");
+
+        return confg;
+    }
+
+    async Task TextToSpeakAsync(string text)
+    {
+
+        var utterancet = new SpeechSynthesisUtterance
+            {
+                Text = text,
+                Lang = "es-DO", // BCP 47 language tag
+                Pitch = 1.0, // 0.0 ~ 2.0 (Default 1.0)
+                Rate = 1.2, // 0.1 ~ 10.0 (Default 1.0)
+                Volume = 1.0, // 0.0 ~ 1.0 (Default 1.0)
+                Voice = this.Voices.FirstOrDefault(v => v.Name.Contains("Ramona"))
+            };
+
+        await this.SpeechSynthesis.SpeakAsync(utterancet); // 👈 Speak!
+    }
+
+    private async Task SpeechToText(SpeechSynthesizer synth, string text)
+    {
+        await Task.Run(() =>
+        {
+            var voices = synth.GetInstalledVoices();
+
+            foreach (var v in voices)
+            {
+                Console.WriteLine(v.VoiceInfo.Name);
+            }
+
+            synth.SelectVoice("Microsoft Sabina Desktop");
+
+            // Configure the audio output.
+            synth.SetOutputToDefaultAudioDevice();
+
+            // Speak a string.
+            synth.SpeakAsync(text);
+
+
+
+        });
+
+
+    }
+}

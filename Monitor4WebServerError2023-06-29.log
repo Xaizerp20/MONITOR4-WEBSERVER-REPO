@@ -1,0 +1,30 @@
+
+
+Date:2023-06-29 15:38:20,395
+Thread:[1]
+Level:ERROR
+Logger:SyncfusionInsertCodeBase.ProjectWizardBase                         [(null)]
+Message:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at SyncfusionInsertCodeBase.ProjectWizardBase.GetSelectedProductFeatures(List`1 productList, List`1 featureList, String xmlPath, Boolean IsCallFromSampleCreator, String subPlatform)
+
+
+Date:2023-06-29 16:44:45,105
+Thread:[1]
+Level:ERROR
+Logger:SyncfusionInsertCodeBase.ProjectWizardBase                         [(null)]
+Message:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at SyncfusionInsertCodeBase.ProjectWizardBase.GetSelectedProductFeatures(List`1 productList, List`1 featureList, String xmlPath, Boolean IsCallFromSampleCreator, String subPlatform)
+
+
+Date:2023-06-29 17:16:18,335
+Thread:[1]
+Level:ERROR
+Logger:SyncfusionInsertCodeBase.ProjectWizardBase                         [(null)]
+Message:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at SyncfusionInsertCodeBase.ProjectWizardBase.GetSelectedProductFeatures(List`1 productList, List`1 featureList, String xmlPath, Boolean IsCallFromSampleCreator, String subPlatform)

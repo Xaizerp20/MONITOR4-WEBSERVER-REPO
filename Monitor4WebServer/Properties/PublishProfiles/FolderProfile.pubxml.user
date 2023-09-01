@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Informatica\source\repos\Monitor4WebServer\Monitor4WebServer\bin\Release\net7.0\publish\</_PublishTargetUrl>
+    <History>True|2023-07-28T01:22:32.7669483Z;True|2023-07-27T21:05:08.8097312-04:00;True|2023-07-27T20:28:13.0966287-04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

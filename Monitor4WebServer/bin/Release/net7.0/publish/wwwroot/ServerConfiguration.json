@@ -1,0 +1,28 @@
+{
+  "HotelName": "Caba\u00F1as NewLove",
+  "MqttBroker": "192.168.10.141",
+  "MqttPort": "1883",
+  "MqttClientName": "Caba\u00F1as_NewLove_MONITOR4_WebServer_Local",
+  "MqttTopic": "Caba\u00F1asNewLove/MONITOR4/#",
+  "TurnosQuantity": 2,
+  "RoomsQuantity": 25,
+  "EmailHost": "mail.manicatogroup.com",
+  "EmailPort": "465",
+  "EmailRemitente": "caba\u00F1as.newlove@manicatogroup.com",
+  "EmailPassword": "2639",
+  "EmailDestinatarios": [
+    "carlo.pichardo@manictogroup.com",
+    "juan.pichardo@manictogroup.com"
+  ],
+  "TimeTurnos": {
+    "1": "07:00:00",
+    "2": "22:00:00",
+    "3": "00:00:00"
+  },
+  "BoardConfig": {
+    "MqttCloudBroker": "broker.manicatogroup.com",
+    "MqttCloudPort": "1883",
+    "MqttCloudClientName": "Caba\u00F1as_NewLove_MONITOR4_WebServer_Cloud",
+    "I2cBus": "1"
+  }
+}

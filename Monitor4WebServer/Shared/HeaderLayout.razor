@@ -1,0 +1,67 @@
+﻿@using System.Threading;
+
+<RadzenHeader class="rz-background-color-black" >
+    <RadzenStack Orientation="Radzen.Orientation.Horizontal" AlignItems="Radzen.AlignItems.Center" JustifyContent="JustifyContent.SpaceBetween" Wrap="FlexWrap.Wrap" Style="height: 100%;">
+        <RadzenStack Orientation="Radzen.Orientation.Vertical" AlignItems="Radzen.AlignItems.Center" Gap="0" class="mx-2">
+            <RadzenLabel style="font-size: 2em; font-weight:bold" Text="@GetDateTimeNow()[0]" @bind-value="date" />
+        </RadzenStack>
+        <RadzenStack Orientation="Radzen.Orientation.Vertical" JustifyContent="JustifyContent.Center" Gap="0">
+            <RadzenLabel style="font-size: 2em; font-weight:bold" Text="@MainText" />
+        </RadzenStack>
+        <RadzenStack Orientation="Radzen.Orientation.Vertical" JustifyContent="JustifyContent.End" Gap="0" class="mx-2">
+            <RadzenLabel style="font-size: 2em; font-weight:bold" Text="@GetDateTimeNow()[1]" />
+        </RadzenStack>
+    </RadzenStack>
+</RadzenHeader>
+
+
+
+@code {
+    [Parameter]
+    public string MainText { get; set; } = null!;
+    private string time = null!;
+    private string date = null!;
+    private Timer timerUpdate;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+       // timerUpdate = new Timer(OnTimerCallback, null, 0, 1000);
+
+    }
+
+
+    /*
+     * 
+    private void OnTimerCallback(object state)
+    {
+        date = GetDateTimeNow()[0];
+        time = GetDateTimeNow()[1];
+       InvokeAsync(StateHasChanged);
+    }
+    */
+
+    public static string[] GetDateTimeNow()
+    {
+        // Obtener la fecha y hora actual
+        DateTime dateTimeNow = DateTime.Now;
+
+        // Formato personalizado para la fecha
+        string formatDate = "ddd. dd MMM yyyy";
+
+        // Obtener la fecha actual en el formato deseado
+        string dateNow = dateTimeNow.ToString(formatDate);
+
+
+        // Formato personalizado para la hora en formato de 12 horas
+        string formatHour12 = "hh:mm:ss tt";
+
+        // Obtener la hora actual en formato de 12 horas
+        string timeNow = dateTimeNow.ToString(formatHour12);
+
+
+
+        return new string[] { dateNow, timeNow };
+    }
+
+}

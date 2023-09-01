@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<div class="page vh-100 rz-background-color-black">
+    <!--
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+    -->
+    <main>
+        <!--
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+        -->
+        <article class="h-100 px-0 px-sm-0">
+            @Body
+        </article>
+    </main>
+</div>
+
+
+<style>
+    .top-row[b-yulzmm5yn6], article[b-yulzmm5yn6] {
+        padding-left: 0 !important;
+        padding-right:0 !important;
+    }
+</style>

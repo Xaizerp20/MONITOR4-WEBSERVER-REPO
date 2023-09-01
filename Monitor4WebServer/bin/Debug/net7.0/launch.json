@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "adapter": "c:\\users\\informatica\\appdata\\local\\microsoft\\visualstudio\\17.0_8e6ab76e\\extensions\\dvxojxez.wmk\\plink.exe",
+  "adapterArgs": "-pw 2639 xaviermg@192.168.10.141:22  -batch -T vsdbg --interpreter=vscode",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "dotnet",
+      "args": [
+        "Monitor4WebServer.dll",
+        ""
+      ],
+      "cwd": "./MonoDebugTemp/",
+      "console": "internalConsole",
+      "stopAtEntry": true
+    }
+  ]
+}

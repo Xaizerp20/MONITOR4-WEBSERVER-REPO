@@ -1,0 +1,487 @@
+﻿@using System.Text.Json;
+@using Microsoft.AspNetCore.Hosting;
+@using Monitor4WebServer.Model
+@using System.Timers
+@inject NotificationService NotificationService
+@inject IWebHostEnvironment WebHostEnvironment
+@inject ISnackbar Snackbar
+
+@page "/Configuration"
+
+
+
+<HeaderLayout MainText="CONFIGURATION"></HeaderLayout>
+
+
+<RadzenTabs @bind-SelectedIndex=@selectedIndex>
+    <Tabs>
+        <RadzenTabsItem Text="Server Configuration">
+            <RadzenFieldset Style="color: white">
+                <HeaderTemplate>
+                    <span class="d-inline-flex align-items-center align-middle" style="color: white">
+                        <RadzenIcon Icon="account_box" class="me-1" /><b>MQTT CONFIGURATION</b>
+                    </span>
+                </HeaderTemplate>
+                <ChildContent>
+                    <RadzenStack Gap="1rem">
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="MQTT Broker" />
+                                <RadzenTextBox @bind-Value="@mqttHost" Style="width: 100%;" Name="MqttBroker" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="MQTT Port" />
+                                <RadzenTextBox @bind-Value="@mqttPort" Style="width: 100%;" Name="MqttPort" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="MQTT Client Id" />
+                                <RadzenTextBox @bind-Value="@mqttPort" Style="width: 100%;" Name="MqttClientId" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="MQTT Client" />
+                                <RadzenTextBox @bind-Value="@mqttClientName" Style="width: 100%;" Name="MqttClient" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+                    </RadzenStack>
+                </ChildContent>
+            </RadzenFieldset>
+
+
+
+
+            <RadzenFieldset Style="color: white">
+                <HeaderTemplate>
+                    <span class="d-inline-flex align-items-center align-middle" style="color: white">
+                        <RadzenIcon Icon="account_box" class="me-1" /><b>TURNOS</b>
+                    </span>
+                </HeaderTemplate>
+                <ChildContent>
+                    <RadzenStack Gap="1rem">
+
+                        @foreach (var t in TurnosQuantity)
+                        {
+                            <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                                <RadzenColumn Size="12" SizeMD="4">
+                                    <RadzenLabel>Turno #@t</RadzenLabel>
+                                </RadzenColumn>
+                                <RadzenColumn Size="12" SizeMD="8">
+                                    <MudChip Color="Color.Default"  OnClose="(chip) => deleteTurn(chip, t)">
+                                        <MudTimePicker Label="12 hours custom format" AmPm="true" TimeFormat="h:mm tt" @bind-Time="@TurnosList[t]" />
+
+                                    </MudChip>
+                                    
+                                </RadzenColumn>
+                            </RadzenRow>
+                        }
+
+                        <RadzenButton Click="AddTurnos">Agregar Turno</RadzenButton>
+
+                    </RadzenStack>
+                </ChildContent>
+            </RadzenFieldset>
+
+
+
+            <RadzenFieldset Style="color: white">
+                <HeaderTemplate>
+                    <span class="d-inline-flex align-items-center align-middle" style="color: white">
+                        <RadzenIcon Icon="account_box" class="me-1" /><b>GENERAL CONFIGURATION</b>
+                    </span>
+                </HeaderTemplate>
+                <ChildContent>
+                    <RadzenStack Gap="1rem">
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="Hotel Name" />
+                                <RadzenTextBox @bind-Value="@hotelName" Style="width: 100%;" Name="HotelName" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="Rooms Quantity" />
+                                <RadzenNumeric TValue="int" @bind-Value=@roomsQuantity Name="Rooms Quantity" Placeholder="Rooms Quantity" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+
+                    </RadzenStack>
+                </ChildContent>
+            </RadzenFieldset>
+
+
+            <RadzenFieldset Style="color: white">
+                <HeaderTemplate>
+                    <span class="d-inline-flex align-items-center align-middle" style="color: white">
+                        <RadzenIcon Icon="account_box" class="me-1" /><b>EMAILS CONFIGURATION</b>
+                    </span>
+                </HeaderTemplate>
+                <ChildContent>
+                    <RadzenStack Gap="1rem">
+
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="Email Host" />
+                                <RadzenTextBox @bind-Value="@emailHost" Style="width: 100%;" Name="emailHost" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="Email Port" />
+                                <RadzenTextBox @bind-Value="@emailPort" Style="width: 100%;" Name="emailHost" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+
+
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="Email Remitente" />
+                                <RadzenTextBox @bind-Value="@emailRemitente" Style="width: 100%;" Name="emailRemitente" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="6" SizeMD="6">
+                                <RadzenLabel Text="Email Password" />
+                                <RadzenTextBox @bind-Value="@emailPassword" Style="width: 100%;" Name="MqttBroker" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="12" SizeMD="4">
+                                <RadzenLabel Text="Destinario" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" SizeMD="8">
+                                <RadzenTextBox @bind-Value="@emailDestinatario" Style="width: 100%;" Name="emailDestinatario" />
+                                <RadzenButton Click=@(args => AddEmail("Destinatario")) Text="Agregar Correo" ButtonStyle="ButtonStyle.Primary" class="mt-4" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+
+
+                        <RadzenDataGrid AllowColumnResize="true"
+                                        Data="@ListEmails" TItem="String" ColumnWidth="300px" LogicalFilterOperator="LogicalFilterOperator.Or">
+                            <Columns>
+                                <RadzenDataGridColumn TItem="String" Property="FirstName" Title="Emails" Frozen="true" Width="160px" />
+                            </Columns>
+                        </RadzenDataGrid>
+
+                    </RadzenStack>
+                </ChildContent>
+            </RadzenFieldset>
+
+        </RadzenTabsItem>
+
+        <RadzenTabsItem Text="BOARD CONFIGURATION" Style="color: white">
+
+
+            <RadzenFieldset Style="color: white">
+
+                <HeaderTemplate>
+                    <span class="d-inline-flex align-items-center align-middle" style="color: white">
+                        <RadzenIcon Icon="account_box" class="me-1" /><b>CLOUD MQTT CONFIGURATION</b>
+                    </span>
+                </HeaderTemplate>
+                <ChildContent>
+                    <RadzenStack Gap="1rem">
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="12" SizeMD="4">
+                                <RadzenLabel Text="MQTT Cloud Broker" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" SizeMD="8">
+                                <RadzenTextBox @bind-Value="@cloudMqttHost" Style="width: 100%;" Name="MqttBroker" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="12" SizeMD="4">
+                                <RadzenLabel Text="MQTT Cloud PORT" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" SizeMD="8">
+                                <RadzenTextBox @bind-Value="@cloudMqttPort" Style="width: 100%;" Name="MqttPort" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="12" SizeMD="4">
+                                <RadzenLabel Text="MQTT Cloud Client Name" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" SizeMD="8">
+                                <RadzenTextBox @bind-Value="@cloudMqttClientName" Style="width: 100%;" Name="MqttClient" />
+                            </RadzenColumn>
+                        </RadzenRow>
+
+                    </RadzenStack>
+                </ChildContent>
+            </RadzenFieldset>
+
+
+            <RadzenFieldset Style="color: white">
+                <HeaderTemplate>
+                    <span class="d-inline-flex align-items-center align-middle" style="color: white">
+                        <RadzenIcon Icon="account_box" class="me-1" /><b>I2C CONFIGURATION</b>
+                    </span>
+                </HeaderTemplate>
+                <ChildContent>
+                    <RadzenStack Gap="1rem">
+                        <RadzenRow AlignItems="Radzen.AlignItems.Center">
+                            <RadzenColumn Size="12" SizeMD="4">
+                                <RadzenLabel Text="I2c Bus" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" SizeMD="8">
+                                <RadzenNumeric TValue="int" @bind-Value=@i2cBus Name="I2c Bus" Placeholder="I2c Bus" />
+                            </RadzenColumn>
+                        </RadzenRow>
+                    </RadzenStack>
+                </ChildContent>
+            </RadzenFieldset>
+        </RadzenTabsItem>
+    </Tabs>
+</RadzenTabs>
+
+
+
+<RadzenButton Click="saveConfiguration"></RadzenButton>
+
+
+@code {
+    DateTime? time = DateTime.Now;
+    List<string> Turnos = new List<string>();
+    List<int> TurnosQuantity = new List<int>();
+    List<string> ListEmails = new List<string>();
+    List<string> TurnosString = new List<string>();
+    Dictionary<int, TimeSpan?> TurnosList = new Dictionary<int, TimeSpan?>();
+    Dictionary<string, string> BoardConfg = new Dictionary<string, string>();
+
+
+    string mqttHost = null!;
+    string mqttPort = null!;
+    string mqttClientName = null!;
+
+    string cloudMqttHost = null!;
+    string cloudMqttPort = null!;
+    string cloudMqttClientName = null!;
+
+
+    int turnosQuantity = 0;
+    int roomsQuantity = 0;
+    string hotelName = null!;
+
+    string emailHost = null!;
+    string emailPort = null!;
+    string emailRemitente = null!;
+    string emailPassword = null!;
+    string emailDestinatario = null!;
+    static string mqttTopic = null!;
+    TimeSpan? timePicker = new TimeSpan(00, 45, 00);
+
+    int i2cBus = 0;
+
+    int selectedIndex = 0;
+
+    NotificationMessage message = new NotificationMessage();
+
+    protected override void OnInitialized()
+    {
+        string filePath = Path.Combine(WebHostEnvironment.WebRootPath, "ServerConfiguration.json");
+        string jsonData = File.ReadAllText(filePath);
+
+        ServerConfiguration? confg = JsonSerializer.Deserialize<ServerConfiguration>(jsonData);
+
+        if (confg != null)
+        {
+            hotelName = confg.HotelName;
+            mqttHost = confg.MqttBroker;
+            mqttPort = confg.MqttPort;
+            mqttClientName = confg.MqttClientName;
+            mqttTopic = confg.MqttTopic;
+
+
+            turnosQuantity = confg.TurnosQuantity;
+
+            foreach (var t in confg.TimeTurnos)
+            {
+                TurnosQuantity.Add(t.Key);
+            }
+
+
+            roomsQuantity = confg.RoomsQuantity;
+
+            emailHost = confg.EmailHost;
+            emailPort = confg.EmailPort;
+            emailRemitente = confg.EmailRemitente;
+            emailPassword = confg.EmailPassword;
+            ListEmails = confg.EmailDestinatarios;
+            TurnosList = confg.TimeTurnos;
+            BoardConfg = confg.BoardConfig;
+            cloudMqttHost = confg.BoardConfig["MqttCloudBroker"];
+            cloudMqttPort = confg.BoardConfig["MqttCloudPort"];
+            cloudMqttClientName = confg.BoardConfig["MqttCloudClientName"];
+            i2cBus = int.Parse(confg.BoardConfig["I2cBus"]);
+        }
+
+
+
+    }
+    void deleteTurn(MudChip chip, int turnId)
+    {
+        Console.WriteLine("chip: " + chip);
+        Console.WriteLine("turno: " + turnId);
+        TurnosList.Remove(turnId);
+        turnosQuantity--;
+    }
+
+
+    public void AddTurnos()
+    {
+
+        TurnosList.Add(TurnosList.Count + 1, new TimeSpan(0, 0, 0));
+
+        InvokeAsync(StateHasChanged);
+
+    }
+
+    public void getTurno(int turno, TimeSpan? time, string startEnd)
+    {
+
+
+        //check if turn exist
+        if (TurnosList.ContainsKey(turno))
+        {
+
+            TurnosList[turno] = time;
+        }
+
+        else
+        {
+
+            TurnosList.Add(turno, time);
+        }
+
+
+
+        Console.WriteLine($"turno {turno} agregado: {time}");
+    }
+
+
+    public void AddEmail(string email)
+    {
+        Console.WriteLine("email: " + emailDestinatario);
+
+        if (email == "Destinatario")
+        {
+            Console.WriteLine(ListEmails.Contains(emailDestinatario));
+            if (!ListEmails.Contains(emailDestinatario))
+            {
+                ListEmails.Add(emailDestinatario);
+                InvokeAsync(StateHasChanged);
+            }
+
+        }
+
+
+
+        foreach (string e in ListEmails)
+        {
+            Console.WriteLine(e);
+        }
+
+    }
+
+
+    public Dictionary<string, string> GetBoardConfig()
+    {
+
+        Dictionary<string, string> BoardConfg = new Dictionary<string, string>();
+
+        BoardConfg.TryAdd("MqttCloudBroker", cloudMqttHost);
+        BoardConfg.TryAdd("MqttCloudPort", cloudMqttPort);
+        BoardConfg.TryAdd("MqttCloudClientName", cloudMqttClientName);
+        BoardConfg.TryAdd("I2cBus", i2cBus.ToString());
+
+        /*
+        BoardConfg["MqttCloudBroker"] = cloudMqttHost;
+        BoardConfg["MqttCloudPort"] = cloudMqttPort;
+        BoardConfg["MqttCloudClientName"] = cloudMqttClientName;
+        BoardConfg["I2cBus"] = i2cBus.ToString();
+        */
+
+        return BoardConfg;
+    }
+
+    public string getMqttTopic(string hotelName)
+    {
+        Console.WriteLine(hotelName);
+        mqttTopic = $"{hotelName.Replace(" ", "")}/MONITOR4/#";
+
+        return mqttTopic;
+
+    }
+
+
+    public async Task saveConfiguration()
+    {
+        string filePath = Path.Combine(WebHostEnvironment.WebRootPath, "ServerConfiguration.json");
+        //string fileCopy = "/ConfigurationMonitor4/ServerConfiguration.json"; //local copy
+
+
+        ServerConfiguration confg = new ServerConfiguration
+            {
+                HotelName = hotelName,
+                MqttTopic = getMqttTopic(hotelName),
+                MqttBroker = mqttHost,
+                MqttPort = mqttPort,
+                MqttClientName = mqttClientName,
+                TurnosQuantity = turnosQuantity,
+                RoomsQuantity = roomsQuantity,
+                EmailHost = emailHost,
+                EmailPort = emailPort,
+                EmailRemitente = emailRemitente,
+                EmailPassword = emailPassword,
+                EmailDestinatarios = ListEmails,
+                TimeTurnos = TurnosList,
+                BoardConfig = GetBoardConfig()
+            };
+
+
+        try
+        {
+            string jsonString = JsonSerializer.Serialize(confg);
+            await File.WriteAllTextAsync(filePath, jsonString);
+            //File.Delete(fileCopy); //delete file
+            //File.Copy(filePath, fileCopy); //recopy file
+
+            ShowNotification("Configuracion guardad con exito!", Severity.Success);
+        }
+        catch(Exception ex)
+        {
+            ShowNotification(ex.Message, Severity.Error);
+            return;
+        }
+
+
+
+
+
+
+    }
+
+
+    void ShowNotification(string summary, Severity detail)
+    {
+        Snackbar.Add(summary, detail);
+
+
+    }
+
+    void NotificationClick(NotificationMessage message)
+    {
+
+    }
+
+
+}
