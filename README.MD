@@ -90,5 +90,5 @@ Este proyecto está bajo la licencia [Licencia MIT](LICENSE).
 ## Contacto
 
 Si tienes preguntas o sugerencias, no dudes en ponerte en contacto conmigo.
+[Linkedin](linkedin.com/in/xavierjp/)
 
-linkedin.com/in/xavierjp/
