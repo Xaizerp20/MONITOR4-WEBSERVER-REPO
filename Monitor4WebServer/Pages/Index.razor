@@ -98,17 +98,17 @@
                         <RadzenRow class="rz-text-align-center" Gap="0" RowGap="0" Style=" border: 2px solid #084B8A;height: 100%;">
 
                             <RadzenColumn Size="12" class="rz-background-color-info-lighter  rz-p-5" Style=" height:50px;  color: #ffffff">
-                                MANICATO GROUP
+                                    Xavier Jimémez
                             </RadzenColumn>
-                            <RadzenColumn Size="12" class="rz-background-color-info-lighter rz-p-5" Style="height:50px;  color: #ffffff">
-                                www.manicatogroup.com
+                         <RadzenColumn Size="12" class="rz-background-color-info-lighter rz-p-5" Style="height:50px;  color: #ffffff">
+                                https://github.com/Xaizerp20
                             </RadzenColumn>
-                            <RadzenColumn Size="12" class="rz-background-color-info-lighter  rz-p-5" Style="height:50px; color: #ffffff">
-                                info@manicatogroup.com
+                              <RadzenColumn Size="12" class="rz-background-color-info-lighter  rz-p-5" Style="height:50px; color: #ffffff">
+                                https://www.linkedin.com/in/xavierjp/
                             </RadzenColumn>
-                            <RadzenColumn Size="12" class="rz-background-color-info-lighter  rz-p-5" Style="height:50px;  color: #ffffff">
+                            <!--  <RadzenColumn Size="12" class="rz-background-color-info-lighter  rz-p-5" Style="height:50px;  color: #ffffff">
                                 +1-849-450-0454
-                            </RadzenColumn>
+                            </RadzenColumn> -->
                             <RadzenColumn Size="12" class="rz-background-color-info-lighter rz-p-5" Style="height:50px; color: #ffffff">
                                 MONITOR4 V2.0 PLUS
                             </RadzenColumn>
@@ -351,7 +351,7 @@
         int busy = 0;
 
 
-        using (var db = new LiteDatabase(@"C:\Users\Informatica\Desktop\MONITOR4LR\MONITOR4_LR.db"))
+        using (var db = new LiteDatabase(@"C:\Users\xavic\Desktop\Lite_DBMONITOR4_LR.db"))
         {
             col = db.GetCollection<LineReport>("linereport");
 
@@ -398,13 +398,13 @@
                     /*
                     Task.Run(async () =>
                     {
-                       
-                        await r.PlaySpeechAsync(JSRuntime, $"HABITACION {r.Id}: {r.CurrentState.ToString()}");
-                       
+
+                    await r.PlaySpeechAsync(JSRuntime, $"HABITACION {r.Id}: {r.CurrentState.ToString()}");
+
                         //r.TextToSpeechAsync(SpeechSynthesis, utterancet, $"HABITACION {r.Id}: {r.CurrentState.ToString()}");
-                    });                   
-                  
-                   
+                        });                   
+
+
 
 
                     */
@@ -433,7 +433,7 @@
     private async Task HandleMessage(string message)
     {
         JObject jsonObject = JObject.Parse(message);
-
+        Console.WriteLine(message);
         bool checkMsg = CheckJson(jsonObject);
 
 
@@ -443,8 +443,9 @@
             int room = (int)jsonObject["NumHab"];
             int data = (int)jsonObject["Trama_V"];
 
-            Estado newState = DecodeData(data, room);  //decodifier data
 
+            Estado newState = DecodeData(data);  //decodifier data
+            Console.WriteLine(newState);
             Room? findRoom = ListRooms.Find(r => r.Id == room); //found room
 
             //LineReport? findReportLine = (await lineReportDB.GetAllLineReports()).LastOrDefault(x => x.ID_HABITACION == room);
@@ -460,7 +461,7 @@
             // await InvokeAsync(StateHasChanged); //renderizar componente
         }
 
-        else
+    else
         {
             return;
         }
@@ -481,18 +482,21 @@
     }
 
     //data MQTT decodefier
-    private Estado DecodeData(int DATA, int numberRoom)
+    private Estado DecodeData(int DATA)
     {
+       int ESTADO_HABITACION = DATA;
+
+        
         Estado newState;
         //Estado CardId;
-
+        /*
         //TODO: RETORNAR TIPO DE TARJETA Y EL CARD ID
         //decodificacion trama version 2023
         int ID_TARJETA = (DATA & 0xFF);//ID de la tarjeta
         int TIPO_TARJETA = ((DATA >> 8) & 0x0F);//tipo de tarjeta
         int ESTADO_HABITACION = ((DATA >> 12) & 0x0F);//estado de la habitacion
         int OPC = ((DATA >> 16) & 0x0F);//verifica si la trama es de tipo OPC
-
+        */
 
         //Console.WriteLine("DATA: " + DATA);
         //Console.WriteLine("ID TARJETA: " + ID_TARJETA);

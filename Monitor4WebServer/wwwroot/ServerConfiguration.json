@@ -1,9 +1,9 @@
 {
-  "HotelName": "Caba\u00F1as NewLove",
+  "HotelName": "Hotel Royal",
   "MqttBroker": "192.168.10.141",
   "MqttPort": "1883",
   "MqttClientName": "Caba\u00F1as_NewLove_MONITOR4_WebServer_Local",
-  "MqttTopic": "Caba\u00F1asNewLove/MONITOR4/#",
+  "MqttTopic": "HotelRoyal/MONITOR4/#",
   "TurnosQuantity": 2,
   "RoomsQuantity": 25,
   "EmailHost": "mail.manicatogroup.com",

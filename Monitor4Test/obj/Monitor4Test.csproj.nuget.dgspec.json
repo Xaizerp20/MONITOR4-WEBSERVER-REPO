@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4Test\\Monitor4Test.csproj": {}
+    "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4Test\\Monitor4Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4Test\\Monitor4Test.csproj": {
+    "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4Test\\Monitor4Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4Test\\Monitor4Test.csproj",
+        "projectUniqueName": "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4Test\\Monitor4Test.csproj",
         "projectName": "Monitor4Test",
-        "projectPath": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4Test\\Monitor4Test.csproj",
-        "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4Test\\obj\\",
+        "projectPath": "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4Test\\Monitor4Test.csproj",
+        "packagesPath": "C:\\Users\\xavic\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xavic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\Monitor4WebServer.csproj": {
-                "projectPath": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\Monitor4WebServer.csproj"
+              "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\Monitor4WebServer.csproj": {
+                "projectPath": "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\Monitor4WebServer.csproj"
               }
             }
           }
@@ -94,20 +94,20 @@
         }
       }
     },
-    "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\Monitor4WebServer.csproj": {
+    "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\Monitor4WebServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\Monitor4WebServer.csproj",
+        "projectUniqueName": "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\Monitor4WebServer.csproj",
         "projectName": "Monitor4WebServer",
-        "projectPath": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\Monitor4WebServer.csproj",
-        "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\obj\\",
+        "projectPath": "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\Monitor4WebServer.csproj",
+        "packagesPath": "C:\\Users\\xavic\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xavic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

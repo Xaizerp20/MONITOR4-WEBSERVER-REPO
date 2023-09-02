@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xjE8wb50VLUx30d6KaxEfcoOhCKKPPaK04Rhmj7D5Co=",
+  "Hash": "T7A1ct2762vEotc89uuuI6WuRpFRN+JSTg9Mh3rxcPs=",
   "Source": "Monitor4WebServer",
   "BasePath": "_content/Monitor4WebServer",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Monitor4WebServer\\wwwroot",
       "Source": "Monitor4WebServer",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\dark.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\dark.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/dark.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\dark.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\dark.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\dark-base.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\dark-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/dark-base.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\dark-base.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\dark-base.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\default.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\default.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/default.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\default.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\default.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\default-base.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\default-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/default-base.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\default-base.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\default-base.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\humanistic.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\humanistic.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/humanistic.css",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\humanistic.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\humanistic.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\humanistic-base.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\humanistic-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/humanistic-base.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\humanistic-base.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\humanistic-base.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\material.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\material.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/material.css",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\material.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\material.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\material-base.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\material-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/material-base.css",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\material-base.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\material-base.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\software.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\software.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/software.css",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\software.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\software.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\software-base.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\software-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/software-base.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\software-base.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\software-base.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\standard.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\standard.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/standard.css",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\standard.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\standard.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\standard-base.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\standard-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/standard-base.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\standard-base.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\css\\standard-base.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\MaterialIcons-Regular.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\MaterialIcons-Regular.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/MaterialIcons-Regular.woff",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\MaterialIcons-Regular.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\MaterialIcons-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-300.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-300.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-300.woff",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-300.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-300.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-700.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-700.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-700.woff",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-700.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-700.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-regular.woff",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-300.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-300.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v30-latin-300.woff",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-300.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-300.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-500.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-500.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v30-latin-500.woff",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-500.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-500.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-700.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-700.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v30-latin-700.woff",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-700.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-700.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-regular.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-regular.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v30-latin-regular.woff",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-regular.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\roboto-v30-latin-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Black.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Black.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Black.woff",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Black.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Black.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-BlackIt.woff",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Bold.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Bold.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Bold.woff",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Bold.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-BoldIt.woff",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-ExtraLight.woff",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-ExtraLightIt.woff",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-It.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-It.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-It.woff",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-It.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-It.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Light.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Light.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Light.woff",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Light.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Light.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-LightIt.woff",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Regular.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Regular.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Regular.woff",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Regular.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Semibold.woff",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-SemiboldIt.woff",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\Radzen.Blazor.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\Radzen.Blazor.js",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "Radzen.Blazor.js",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\Radzen.Blazor.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\radzen.blazor\\4.13.4\\staticwebassets\\Radzen.Blazor.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\accumulationchart.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\accumulationchart.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/accumulationchart.min.js",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\accumulationchart.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\accumulationchart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\chart.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\chart.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/chart.min.js",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\compression.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\compression.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/compression.min.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\compression.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\compression.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\data.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\data.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/data.min.js",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\data.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\data.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\diagrams.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\diagrams.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/diagrams.min.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\diagrams.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\diagrams.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\drawings.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\drawings.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/drawings.min.js",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\drawings.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\drawings.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\excelexport.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\excelexport.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/excelexport.min.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\excelexport.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\excelexport.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\fileutils.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\fileutils.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/fileutils.min.js",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\fileutils.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\fileutils.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\navigationsbase.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\navigationsbase.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/navigationsbase.min.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\navigationsbase.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\navigationsbase.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\officechart.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\officechart.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/officechart.min.js",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\officechart.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\officechart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\pdf.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\pdf.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/pdf.min.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\pdf.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\pdf.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\pdfexport.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\pdfexport.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/pdfexport.min.js",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\pdfexport.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\pdfexport.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\popup.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\popup.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/popup.min.js",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\popup.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\popup.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\popupsbase.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\popupsbase.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/popupsbase.min.js",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\popupsbase.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\popupsbase.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\ribbon.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\ribbon.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/ribbon.min.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\ribbon.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\ribbon.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-accordion.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-accordion.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-accordion.min.js",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-accordion.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-accordion.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-accumulation-chart.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-accumulation-chart.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-accumulation-chart.min.js",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-accumulation-chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-accumulation-chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-barcode.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-barcode.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-barcode.min.js",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-barcode.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-barcode.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-breadcrumb.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-breadcrumb.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-breadcrumb.min.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-breadcrumb.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-breadcrumb.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-bullet-chart.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-bullet-chart.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-bullet-chart.min.js",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-bullet-chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-bullet-chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-calendar.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-calendar.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-calendar.min.js",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-calendar.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-calendar.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-carousel.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-carousel.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-carousel.min.js",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-carousel.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-chart.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-chart.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-chart.min.js",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-circulargauge.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-circulargauge.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-circulargauge.min.js",
       "AssetKind": "All",
@@ -1017,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-circulargauge.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-circulargauge.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-colorpicker.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-colorpicker.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-colorpicker.min.js",
       "AssetKind": "All",
@@ -1034,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-colorpicker.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-colorpicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-contextmenu.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-contextmenu.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-contextmenu.min.js",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-contextmenu.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-contextmenu.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dashboard-layout.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dashboard-layout.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-dashboard-layout.min.js",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dashboard-layout.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dashboard-layout.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-datepicker.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-datepicker.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-datepicker.min.js",
       "AssetKind": "All",
@@ -1085,13 +1085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-datepicker.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-datepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-daterangepicker.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-daterangepicker.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-daterangepicker.min.js",
       "AssetKind": "All",
@@ -1102,13 +1102,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-daterangepicker.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-daterangepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-diagramcomponent.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-diagramcomponent.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-diagramcomponent.min.js",
       "AssetKind": "All",
@@ -1119,13 +1119,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-diagramcomponent.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-diagramcomponent.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dialog.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dialog.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-dialog.min.js",
       "AssetKind": "All",
@@ -1136,13 +1136,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dialog.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dialog.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-documenteditor.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-documenteditor.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-documenteditor.min.js",
       "AssetKind": "All",
@@ -1153,13 +1153,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-documenteditor.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-documenteditor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-documenteditorcontainer.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-documenteditorcontainer.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-documenteditorcontainer.min.js",
       "AssetKind": "All",
@@ -1170,13 +1170,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-documenteditorcontainer.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-documenteditorcontainer.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-drop-down-button.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-drop-down-button.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-drop-down-button.min.js",
       "AssetKind": "All",
@@ -1187,13 +1187,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-drop-down-button.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-drop-down-button.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dropdownlist.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dropdownlist.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-dropdownlist.min.js",
       "AssetKind": "All",
@@ -1204,13 +1204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dropdownlist.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-dropdownlist.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-filemanager.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-filemanager.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-filemanager.min.js",
       "AssetKind": "All",
@@ -1221,13 +1221,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-filemanager.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-filemanager.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-floating-action-button.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-floating-action-button.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-floating-action-button.min.js",
       "AssetKind": "All",
@@ -1238,13 +1238,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-floating-action-button.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-floating-action-button.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-gantt.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-gantt.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-gantt.min.js",
       "AssetKind": "All",
@@ -1255,13 +1255,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-gantt.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-gantt.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-grid.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-grid.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-grid.min.js",
       "AssetKind": "All",
@@ -1272,13 +1272,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-grid.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-grid.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-heatmap.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-heatmap.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-heatmap.min.js",
       "AssetKind": "All",
@@ -1289,13 +1289,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-heatmap.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-heatmap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-image-editor.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-image-editor.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-image-editor.min.js",
       "AssetKind": "All",
@@ -1306,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-image-editor.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-image-editor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-inplaceeditor.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-inplaceeditor.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-inplaceeditor.min.js",
       "AssetKind": "All",
@@ -1323,13 +1323,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-inplaceeditor.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-inplaceeditor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-kanban.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-kanban.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-kanban.min.js",
       "AssetKind": "All",
@@ -1340,13 +1340,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-kanban.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-kanban.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-lineargauge.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-lineargauge.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-lineargauge.min.js",
       "AssetKind": "All",
@@ -1357,13 +1357,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-lineargauge.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-lineargauge.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-listbox.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-listbox.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-listbox.min.js",
       "AssetKind": "All",
@@ -1374,13 +1374,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-listbox.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-listbox.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-listview.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-listview.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-listview.min.js",
       "AssetKind": "All",
@@ -1391,13 +1391,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-listview.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-listview.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-maps.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-maps.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-maps.min.js",
       "AssetKind": "All",
@@ -1408,13 +1408,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-maps.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-maps.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-maskedtextbox.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-maskedtextbox.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-maskedtextbox.min.js",
       "AssetKind": "All",
@@ -1425,13 +1425,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-maskedtextbox.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-maskedtextbox.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-mention.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-mention.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-mention.min.js",
       "AssetKind": "All",
@@ -1442,13 +1442,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-mention.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-mention.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-menu.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-menu.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-menu.min.js",
       "AssetKind": "All",
@@ -1459,13 +1459,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-menu.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-menu.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-multiselect.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-multiselect.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-multiselect.min.js",
       "AssetKind": "All",
@@ -1476,13 +1476,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-multiselect.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-multiselect.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-numerictextbox.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-numerictextbox.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-numerictextbox.min.js",
       "AssetKind": "All",
@@ -1493,13 +1493,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-numerictextbox.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-numerictextbox.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pager.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pager.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-pager.min.js",
       "AssetKind": "All",
@@ -1510,13 +1510,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pager.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pager.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pdfviewer.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pdfviewer.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-pdfviewer.min.js",
       "AssetKind": "All",
@@ -1527,13 +1527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pdfviewer.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pdfviewer.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pdfviewer2.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pdfviewer2.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-pdfviewer2.min.js",
       "AssetKind": "All",
@@ -1544,13 +1544,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pdfviewer2.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pdfviewer2.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pivotview.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pivotview.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-pivotview.min.js",
       "AssetKind": "All",
@@ -1561,13 +1561,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pivotview.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-pivotview.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-progressbar.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-progressbar.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-progressbar.min.js",
       "AssetKind": "All",
@@ -1578,13 +1578,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-progressbar.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-progressbar.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-range-navigator.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-range-navigator.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-range-navigator.min.js",
       "AssetKind": "All",
@@ -1595,13 +1595,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-range-navigator.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-range-navigator.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-rating.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-rating.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-rating.min.js",
       "AssetKind": "All",
@@ -1612,13 +1612,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-rating.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-rating.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-richtexteditor.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-richtexteditor.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-richtexteditor.min.js",
       "AssetKind": "All",
@@ -1629,13 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-richtexteditor.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-richtexteditor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-schedule.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-schedule.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-schedule.min.js",
       "AssetKind": "All",
@@ -1646,13 +1646,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-schedule.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-schedule.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-sidebar.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-sidebar.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-sidebar.min.js",
       "AssetKind": "All",
@@ -1663,13 +1663,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-sidebar.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-sidebar.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-signature.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-signature.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-signature.min.js",
       "AssetKind": "All",
@@ -1680,13 +1680,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-signature.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-signature.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-slider.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-slider.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-slider.min.js",
       "AssetKind": "All",
@@ -1697,13 +1697,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-slider.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-slider.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-smith-chart.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-smith-chart.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-smith-chart.min.js",
       "AssetKind": "All",
@@ -1714,13 +1714,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-smith-chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-smith-chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-sparkline.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-sparkline.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-sparkline.min.js",
       "AssetKind": "All",
@@ -1731,13 +1731,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-sparkline.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-sparkline.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-speeddial.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-speeddial.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-speeddial.min.js",
       "AssetKind": "All",
@@ -1748,13 +1748,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-speeddial.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-speeddial.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-spinner.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-spinner.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-spinner.min.js",
       "AssetKind": "All",
@@ -1765,13 +1765,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-spinner.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-spinner.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-splitter.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-splitter.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-splitter.min.js",
       "AssetKind": "All",
@@ -1782,13 +1782,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-splitter.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-splitter.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-stock-chart.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-stock-chart.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-stock-chart.min.js",
       "AssetKind": "All",
@@ -1799,13 +1799,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-stock-chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-stock-chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-svg-export.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-svg-export.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-svg-export.min.js",
       "AssetKind": "All",
@@ -1816,13 +1816,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-svg-export.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-svg-export.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-tab.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-tab.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-tab.min.js",
       "AssetKind": "All",
@@ -1833,13 +1833,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-tab.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-tab.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-textbox.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-textbox.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-textbox.min.js",
       "AssetKind": "All",
@@ -1850,13 +1850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-textbox.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-textbox.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-timepicker.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-timepicker.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-timepicker.min.js",
       "AssetKind": "All",
@@ -1867,13 +1867,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-timepicker.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-timepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-toast.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-toast.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-toast.min.js",
       "AssetKind": "All",
@@ -1884,13 +1884,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-toast.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-toast.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-toolbar.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-toolbar.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-toolbar.min.js",
       "AssetKind": "All",
@@ -1901,13 +1901,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-toolbar.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-toolbar.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-tooltip.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-tooltip.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-tooltip.min.js",
       "AssetKind": "All",
@@ -1918,13 +1918,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-tooltip.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-tooltip.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treegrid.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treegrid.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-treegrid.min.js",
       "AssetKind": "All",
@@ -1935,13 +1935,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treegrid.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treegrid.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treemap.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treemap.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-treemap.min.js",
       "AssetKind": "All",
@@ -1952,13 +1952,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treemap.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treemap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treeview.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treeview.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-treeview.min.js",
       "AssetKind": "All",
@@ -1969,13 +1969,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treeview.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-treeview.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-uploader.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-uploader.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sf-uploader.min.js",
       "AssetKind": "All",
@@ -1986,13 +1986,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-uploader.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sf-uploader.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sortable.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sortable.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/sortable.min.js",
       "AssetKind": "All",
@@ -2003,13 +2003,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sortable.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\sortable.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\spinner.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\spinner.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/spinner.min.js",
       "AssetKind": "All",
@@ -2020,13 +2020,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\spinner.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\spinner.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\splitbuttonsbase.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\splitbuttonsbase.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/splitbuttonsbase.min.js",
       "AssetKind": "All",
@@ -2037,13 +2037,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\splitbuttonsbase.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\splitbuttonsbase.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\svgbase.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\svgbase.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/svgbase.min.js",
       "AssetKind": "All",
@@ -2054,13 +2054,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\svgbase.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\svgbase.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/syncfusion-blazor.min.js",
       "AssetKind": "All",
@@ -2071,13 +2071,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/syncfusion-blazor-base.min.js",
       "AssetKind": "All",
@@ -2088,13 +2088,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "scripts/syncfusion-blazor-extended.min.js",
       "AssetKind": "All",
@@ -2105,13 +2105,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/bootstrap.css",
       "AssetKind": "All",
@@ -2122,13 +2122,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap4.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap4.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/bootstrap4.css",
       "AssetKind": "All",
@@ -2139,13 +2139,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap4.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap4.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap5.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap5.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/bootstrap5.css",
       "AssetKind": "All",
@@ -2156,13 +2156,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap5.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap5.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap5-dark.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap5-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/bootstrap5-dark.css",
       "AssetKind": "All",
@@ -2173,13 +2173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap5-dark.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap5-dark.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap-dark.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/bootstrap-dark.css",
       "AssetKind": "All",
@@ -2190,13 +2190,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap-dark.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\bootstrap-dark.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fabric.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fabric.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/fabric.css",
       "AssetKind": "All",
@@ -2207,13 +2207,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fabric.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fabric.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fabric-dark.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fabric-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/fabric-dark.css",
       "AssetKind": "All",
@@ -2224,13 +2224,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fabric-dark.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fabric-dark.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fluent.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fluent.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/fluent.css",
       "AssetKind": "All",
@@ -2241,13 +2241,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fluent.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fluent.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fluent-dark.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fluent-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/fluent-dark.css",
       "AssetKind": "All",
@@ -2258,13 +2258,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fluent-dark.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\fluent-dark.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\highcontrast.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\highcontrast.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/highcontrast.css",
       "AssetKind": "All",
@@ -2275,13 +2275,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\highcontrast.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\highcontrast.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/material.css",
       "AssetKind": "All",
@@ -2292,13 +2292,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material3.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material3.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/material3.css",
       "AssetKind": "All",
@@ -2309,13 +2309,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material3.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material3.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material3-dark.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material3-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/material3-dark.css",
       "AssetKind": "All",
@@ -2326,13 +2326,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material3-dark.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material3-dark.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material-dark.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/material-dark.css",
       "AssetKind": "All",
@@ -2343,13 +2343,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material-dark.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\material-dark.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\tailwind.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\tailwind.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/tailwind.css",
       "AssetKind": "All",
@@ -2360,13 +2360,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\tailwind.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\tailwind.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\tailwind-dark.css",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\tailwind-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
       "RelativePath": "styles/tailwind-dark.css",
       "AssetKind": "All",
@@ -2377,13 +2377,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\tailwind-dark.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\syncfusion.blazor\\22.1.36\\staticwebassets\\styles\\tailwind-dark.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\script.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\script.min.js",
       "SourceId": "Toolbelt.Blazor.SpeechSynthesis",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\",
       "BasePath": "_content/Toolbelt.Blazor.SpeechSynthesis",
       "RelativePath": "script.min.js",
       "AssetKind": "All",
@@ -2394,13 +2394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\script.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\script.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\script.module.min.js",
+      "Identity": "C:\\Users\\xavic\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\script.module.min.js",
       "SourceId": "Toolbelt.Blazor.SpeechSynthesis",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Informatica\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\xavic\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\",
       "BasePath": "_content/Toolbelt.Blazor.SpeechSynthesis",
       "RelativePath": "script.module.min.js",
       "AssetKind": "All",
@@ -2411,13 +2411,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\script.module.min.js"
+      "OriginalItemSpec": "C:\\Users\\xavic\\.nuget\\packages\\toolbelt.blazor.speechsynthesis\\10.0.0\\staticwebassets\\script.module.min.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Monitor4WebServer.styles.css",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Monitor4WebServer.styles.css",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "Monitor4WebServer.styles.css",
       "AssetKind": "All",
@@ -2428,13 +2428,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Monitor4WebServer.styles.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Monitor4WebServer.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Monitor4WebServer.bundle.scp.css",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Monitor4WebServer.bundle.scp.css",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "Monitor4WebServer.bundle.scp.css",
       "AssetKind": "All",
@@ -2445,13 +2445,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Monitor4WebServer.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Monitor4WebServer.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\converArray.js",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\converArray.js",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "converArray.js",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\converArray.js"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\css\\site.css",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\favicon.png",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\ServerConfiguration.json",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\ServerConfiguration.json",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "ServerConfiguration.json",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\ServerConfiguration.json"
     },
     {
-      "Identity": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\Speech.js",
+      "Identity": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\Speech.js",
       "SourceId": "Monitor4WebServer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Informatica\\source\\repos\\Monitor4WebServer\\Monitor4WebServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\xavic\\Desktop\\MONITOR4-WEBSERVER\\Monitor4WebServer\\wwwroot\\",
       "BasePath": "_content/Monitor4WebServer",
       "RelativePath": "Speech.js",
       "AssetKind": "All",

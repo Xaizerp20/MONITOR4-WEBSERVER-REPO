@@ -179,9 +179,6 @@ namespace Monitor4WebServer.Services
                 string subcadena = cadena.Substring(0, stringLegnth);
               
                 string stringCompare = $"{reformatName}/MONITOR4/Room";
-
-                Console.WriteLine(cadena);
-
                 if (subcadena == stringCompare)
                 {
 
