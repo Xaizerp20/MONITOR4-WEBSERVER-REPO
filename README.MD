@@ -89,6 +89,6 @@ Este proyecto está bajo la licencia [Licencia MIT](LICENSE).
 
 ## Contacto
 
-Si tienes preguntas o sugerencias, no dudes en ponerte en contacto con el equipo de desarrollo.
+Si tienes preguntas o sugerencias, no dudes en ponerte en contacto conmigo.
 
-¡Gracias por utilizar nuestro sistema de gestión de habitaciones! Esperamos que sea útil para tu establecimiento.
+linkedin.com/in/xavierjp/
